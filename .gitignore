@@ -1,0 +1,10 @@
+libreface_weights/
+weights_libreface/
+tmp/
+data/stimuli/*
+!data/stimuli/.gitkeep
+*.mat
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
