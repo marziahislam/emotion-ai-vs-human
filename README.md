@@ -4,6 +4,17 @@ Compares how LibreFace and human participants judge ambiguous fear–happy morph
 from Sun et al. (2023).
 
 ## Setup
+### DeepFace
+```bash
+conda create -n deepface_env python=3.10 -y
+conda activate deepface_env
+pip install -r requirements-deepface.txt
+python scripts/run_deepface.py
+```
+Output: `results/deepface_probs.csv`, with 7 emotion probabilities per image plus `p_fear_2afc`.
+
+
+### LibreFace (in progress)
 ```bash
 conda create -n libreface_env python=3.9 -y
 conda activate libreface_env
